@@ -1,0 +1,29 @@
+.container {
+  max-width: 800px;
+}
+
+/* Apply to all children of container */
+.container > * {
+  padding: 10px;
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+}
+
+header {
+  background-color: #f00;
+}
+
+nav {
+  background-color: #0f0;
+}
+
+main {
+  background-color: #00f;
+}
+
+footer {
+  background-color: #000;
+}
